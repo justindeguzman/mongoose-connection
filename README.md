@@ -1,16 +1,16 @@
-# mongoose-connector
-MongooseConnector loads Mongoose models from a directory and connects to a MongoDB instance.
+# mongoose-connection
+MongooseConnection loads Mongoose models from a directory and connects to a MongoDB instance.
 
 
 ## Installation
 
-	$ npm install mongoose-connector
+	$ npm install mongoose-connection
 
 ## Usage
 
 ```js
 var mongoose = require('mongoose')
-var MongooseConnector = require('mongoose-connector')
+var MongooseConnection = require('mongoose-connection')
 
 // Define database connection options
 var opts = {
@@ -22,8 +22,8 @@ var opts = {
 	modelsFilePath: __dirname + '/models'
 }
 
-// Create the MongooseConnector object
-var mc = new MongooseConector(opts);
+// Create the MongooseConnection object
+var mc = new MongooseConnection(opts);
 
 // Connect to your database
 mc.connect()
