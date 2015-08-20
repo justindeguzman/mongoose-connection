@@ -4,7 +4,7 @@ MongooseConnector loads Mongoose models from a directory and connects to a Mongo
 
 ## Installation
 
-		$ npm install mongoose-connector
+	$ npm install mongoose-connector
 
 ## Usage
 
