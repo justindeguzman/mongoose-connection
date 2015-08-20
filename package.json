@@ -1,0 +1,22 @@
+{
+  "name": "mongoose-connection",
+  "version": "0.0.1",
+  "description": "MongooseConnection loads Mongoose models from a directory and connects to a MongoDB instance.",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Justin de Guzman <justin@justindeguzman.net> (http://justindeguzman.net)",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb-uri": "~0.9.7",
+    "mongoose": "~4.1.3",
+    "mongoose-model-loader": "~0.0.4"
+  },
+  "devDependencies": {
+    "should": "~7.0.4"
+  }
+}
