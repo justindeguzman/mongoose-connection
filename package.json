@@ -1,6 +1,6 @@
 {
   "name": "mongoose-connection",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "MongooseConnection loads Mongoose models from a directory and connects to a MongoDB instance.",
   "main": "lib/index.js",
   "directories": {
@@ -18,5 +18,9 @@
   },
   "devDependencies": {
     "should": "~7.0.4"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/justindeguzman/mongoose-connection.git"
   }
 }
